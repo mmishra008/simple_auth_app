@@ -27,7 +27,7 @@ function SignUp() {
       return handleError('All fields are required!');
     }
     try {
-      const response = await fetch('http://localhost:3000/api/signup', {
+      const response = await fetch('https://simple-auth-app-api.vercel.app/api/signup', {
         method: 'POST',
         headers: {
           'content-Type': 'application/json',
