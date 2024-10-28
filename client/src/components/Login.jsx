@@ -25,7 +25,7 @@ function Login() {
       return handleError('All fields required');
     }
     try {
-      const response = await fetch('http://localhost:3000/api/login', {
+      const response = await fetch('https://simple-auth-app-api.vercel.app/api/login', {
         method: 'POST',
         headers: {
           'content-Type': 'application/json',
