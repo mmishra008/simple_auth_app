@@ -27,7 +27,7 @@ function Home() {
           Authorization: localStorage.getItem('token'),
         },
       };
-      const response = await axios('http://localhost:3000/product', headers);
+      const response = await axios('https://simple-auth-app-api.vercel.app/product', headers);
       console.log('HOME RESPONSE', response);
       const result = await response.data;
       setProductData(result);
