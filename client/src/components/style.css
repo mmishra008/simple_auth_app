@@ -1,0 +1,79 @@
+
+.userTable{
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+  border-radius: 5px;
+  margin: 50px, auto;
+  padding: 50px;
+  /* line-height: 10px; */
+}
+/* .addButton{
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  font-weight: 500;
+  box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+ border: 5px;
+ border-radius: 5px;
+ padding: 10px;
+} */
+ .heading{
+ }
+ p{
+  text-align: center;
+  color: darkmagenta;
+  font-size: 30px;
+  
+}
+.userTable table{
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.userTable table thead th{
+  width: 150px;
+  background-color: orchid;
+  color: white;
+  padding: 6px;
+  font-size: 20px;
+  text-align: left;
+  text-wrap: nowrap;
+}
+.userTable table tbody td{
+  /* width: 100%; */
+  text-align:left;
+  text-wrap: wrap;
+}
+.actionButton{
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  /* width: 33px; */
+}
+.actionButton button{
+  height: 33px;
+  width: 33px;
+  
+border: 0;
+outline: none;
+background: red;
+padding: 7px 9px;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+font-weight: 700;
+}
+.actionButton a{
+  height: 18px;
+  /* width: 15px; */
+border: 0;
+background:green;
+padding: 6px 8px;
+color: white;
+border-radius: 5px;
+margin: 15px;
+}
+
